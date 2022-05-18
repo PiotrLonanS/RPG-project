@@ -11,6 +11,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2503355778835524724, guid: 9a580df58d49ef648bc3dafcf9da490c, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814966825913062325, guid: 9a580df58d49ef648bc3dafcf9da490c, type: 3}
+      propertyPath: healthPoints
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 9147884113867143307, guid: 9a580df58d49ef648bc3dafcf9da490c, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -82,19 +90,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 414774360f118014080b9b972bd11af7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &4922249340650634362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2145355898615403519}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f63a03b4320a3842bcd4608e3e2f0f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthPoints: 100
 --- !u!1001 &7638011699714667200
 PrefabInstance:
   m_ObjectHideFlags: 0

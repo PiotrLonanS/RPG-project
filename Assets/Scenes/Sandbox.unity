@@ -293,6 +293,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &283738216 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2145355898615403519, guid: 9d34bc1f98f5ad544a8465fe6f64458b, type: 3}
+  m_PrefabInstance: {fileID: 425525297}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &283738226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283738216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226cd910d28cd5f40b3237b494e3872c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 995218782}
 --- !u!4 &311481472 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 460534, guid: d556d30cab334dd449000218c87322ef, type: 3}
@@ -446,10 +464,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 3680513695850251058, guid: 9d34bc1f98f5ad544a8465fe6f64458b, type: 3}
-      propertyPath: timeBetweenAttacks
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 4723063392596018944, guid: 9d34bc1f98f5ad544a8465fe6f64458b, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -511,6 +525,10 @@ PrefabInstance:
     - target: {fileID: 2354389491455693575, guid: 25612479904868240929a3b75d502900, type: 3}
       propertyPath: m_Name
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666853760094317766, guid: 25612479904868240929a3b75d502900, type: 3}
+      propertyPath: healthPoints
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5301916706019251645, guid: 25612479904868240929a3b75d502900, type: 3}
       propertyPath: healthPoints

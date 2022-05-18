@@ -11,9 +11,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
-    - target: {fileID: 6883728395081969485, guid: 9a580df58d49ef648bc3dafcf9da490c, type: 3}
-      propertyPath: m_Center.y
-      value: 1
+    - target: {fileID: 3228018497238978592, guid: 9a580df58d49ef648bc3dafcf9da490c, type: 3}
+      propertyPath: m_Speed
+      value: 2.88
       objectReference: {fileID: 0}
     - target: {fileID: 9147884113867143307, guid: 9a580df58d49ef648bc3dafcf9da490c, type: 3}
       propertyPath: m_RootOrder
@@ -59,9 +59,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3763032429584643154, guid: 9a580df58d49ef648bc3dafcf9da490c, type: 3}
-    - {fileID: 3228018497238978593, guid: 9a580df58d49ef648bc3dafcf9da490c, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a580df58d49ef648bc3dafcf9da490c, type: 3}
 --- !u!1 &2354389491455693575 stripped
 GameObject:
@@ -73,7 +71,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9147884113867143307, guid: 9a580df58d49ef648bc3dafcf9da490c, type: 3}
   m_PrefabInstance: {fileID: 149124657319559027}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &791717850604628360
+--- !u!114 &5184772257798831492
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -82,10 +80,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2354389491455693575}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2dbf5930194511346bc3632804c7c1c8, type: 3}
+  m_Script: {fileID: 11500000, guid: 47256e91077a08d4f8517fb2c188723a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &4814966825913062325
+  chaseDistance: 5
+--- !u!114 &8708803887191029231
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,11 +93,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2354389491455693575}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f63a03b4320a3842bcd4608e3e2f0f3, type: 3}
+  m_Script: {fileID: 11500000, guid: 226cd910d28cd5f40b3237b494e3872c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthPoints: 10
---- !u!1001 &7446838053661613611
+  target: {fileID: 8998786031204812792}
+--- !u!1001 &1103852621739317059
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
