@@ -1,4 +1,5 @@
 using RPG.Core;
+using System;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -45,6 +46,11 @@ namespace RPG.Movement
             Vector3 localVelocity = transform.InverseTransformDirection(velocity);
             float speed = localVelocity.z;
             GetComponent<Animator>().SetFloat("forwardSpeed", speed);
+        }
+
+        internal void StartMoveAction()
+        {
+            throw new NotImplementedException();
         }
     }
 }
